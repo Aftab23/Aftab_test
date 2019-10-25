@@ -1,0 +1,14 @@
+Configure Mark devices:
+https://config.proglove.de/device-options
+
+Display Link for Linux:
+https://www.displaylink.com/downloads/file?id=1369
+
+BASH Terminal Tutorial:
+https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je
+
+Github Commands Tutorial:
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+Install Zshell:
+https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4
