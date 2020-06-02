@@ -22,13 +22,20 @@ last = "Lateef"
 print(f"{first} {last}")
 print(f"{len(first)} {5+5}")
 
+# template strings
+
+self_introduction = "Hello, my first name is {} and last name is {}"  # defining template
+# using defined template and passing values
+with_names = self_introduction.format("Aftab", "Lateef")
+print(with_names)
+
 print(name.upper())
 
 # strip method
 strip_example_var = " hi hello hi "
-print(strip_example_var.strip())
-print(strip_example_var.lstrip())
-print(strip_example_var.rstrip())
+print(strip_example_var.strip())  # removes spaces from both left and right
+print(strip_example_var.lstrip())  # removes space from left
+print(strip_example_var.rstrip())  # removes space from right
 
 # find method
 print(name.find("e"))  # returns index of character or characters in string
@@ -69,3 +76,19 @@ print(round(3.6))
 print(abs(-1.5))  # returns absolute value
 print(math.ceil(2.2))
 print(math.floor(2.7))
+
+# difference between is vs. ==
+
+friends = ["John", "Bob", "Anne"]
+local = ["John", "Bob", "Anne"]
+abroad = friends
+
+# will return false as the is statement checks for stored address and not the content
+print(abroad is local)
+# will return true as friends was assigne to abroad and both point at the same address
+print(abroad is friends)
+
+
+# both will return true as the content of both comparisons is the same
+print(abroad == local)
+print(abroad == friends)
